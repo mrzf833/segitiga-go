@@ -23,7 +23,7 @@ func main() {
 		}
 		for l := 1; l <= jumlahSisi/2; l++ {
 			if start == l {
-				fmt.Print("*")
+				fmt.Print("1")
 			}
 
 			if l < start {
@@ -48,7 +48,7 @@ func main() {
 			}
 
 			if l > start {
-				fmt.Print("*")
+				fmt.Print("1")
 			}
 		}
 
